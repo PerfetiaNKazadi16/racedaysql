@@ -1,4 +1,4 @@
-# racedaysql
+
 
 RaceDay – Event Management System
 
