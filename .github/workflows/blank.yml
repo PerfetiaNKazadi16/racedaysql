@@ -19,7 +19,6 @@ jobs:
           test -s "SQLQuery5 prog part1.sql"
           test -d docs/docs
           find docs/docs -type f -print -quit | grep -q .
-
       - name: Check SQL script has database and table creation
         run: |
           grep -Eiq '^[[:space:]]*CREATE[[:space:]]+DATABASE' "SQLQuery5 prog part1.sql"
